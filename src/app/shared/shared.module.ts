@@ -8,7 +8,10 @@ import {
   MatInputModule,
   MatFormFieldModule,
   MatListModule,
-  MatSlideToggleModule
+  MatSlideToggleModule,
+  MatGridListModule,
+  MatDialog,
+  MatDialogModule
 } from '@angular/material';
 
 @NgModule({
@@ -21,8 +24,11 @@ import {
     MatInputModule,
     MatFormFieldModule,
     MatSlideToggleModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatDialogModule
   ],
+  providers: [ MatDialog ],
   declarations: [],
   exports: [
     CommonModule,
@@ -33,7 +39,9 @@ import {
     MatInputModule,
     MatFormFieldModule,
     MatSlideToggleModule,
-    MatListModule
+    MatListModule,
+    MatGridListModule,
+    MatDialogModule
   ]
 })
 export class SharedModule { }
