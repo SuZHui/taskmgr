@@ -28,6 +28,13 @@ main {
     width: 100%;
 }
 
+.fab-button {
+    position: fixed !important;
+    right: 32px;
+    bottom: 96px;
+    z-index: 998;
+}
+
 // 滚动条
 ::-webkit-scrollbar  {
     width: 8px;  
