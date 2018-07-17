@@ -13,7 +13,9 @@ import {
   MatDialog,
   MatDialogModule,
   MatAutocompleteModule,
-  MatMenuModule
+  MatMenuModule,
+  MatCheckboxModule,
+  MatTooltipModule
 } from '@angular/material';
 
 @NgModule({
@@ -31,6 +33,8 @@ import {
     MatDialogModule,
     MatAutocompleteModule,
     MatMenuModule,
+    MatCheckboxModule,
+    MatTooltipModule
   ],
   providers: [ MatDialog ],
   declarations: [],
@@ -48,6 +52,8 @@ import {
     MatDialogModule,
     MatAutocompleteModule,
     MatMenuModule,
+    MatCheckboxModule,
+    MatTooltipModule
   ]
 })
 export class SharedModule { }
