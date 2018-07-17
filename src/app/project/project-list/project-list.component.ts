@@ -25,10 +25,14 @@ export class ProjectListComponent implements OnInit {
   }
 
   openNewProjectDialog() {
-    this.dialog.open(NewProjectComponent, { data: {dark: true}})
+    this.dialog.open(NewProjectComponent, { data: {title: '新增项目'}})
   }
 
   launchInviteDialog() {
     this.dialog.open(InviteComponent);
+  }
+
+  launchEditDialog() {
+    this.dialog.open(NewProjectComponent, { data: {title: '编辑项目'}})
   }
 }

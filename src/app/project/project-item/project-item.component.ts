@@ -8,6 +8,7 @@ import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 export class ProjectItemComponent implements OnInit {
   @Input() item;
   @Output() onInvite = new EventEmitter<void>();
+  @Output() onEdit = new EventEmitter<void>();
 
   constructor() { }
 
@@ -17,6 +18,11 @@ export class ProjectItemComponent implements OnInit {
   onInviteClick() {
     this.onInvite
       .emit()
+  }
+
+  onEditClick() {
+    this.onEdit
+      .emit();
   }
 
 }
