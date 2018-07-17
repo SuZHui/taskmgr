@@ -19,6 +19,7 @@ import {
   MatDatepickerModule,
   MatRadioModule,
   MatNativeDateModule,
+  MatSelectModule,
 } from '@angular/material';
 
 @NgModule({
@@ -40,7 +41,8 @@ import {
     MatTooltipModule,
     MatDatepickerModule,
     MatRadioModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatSelectModule,
   ],
   providers: [ MatDialog ],
   declarations: [],
@@ -62,7 +64,8 @@ import {
     MatTooltipModule,
     MatDatepickerModule,
     MatRadioModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatSelectModule,
   ]
 })
 export class SharedModule { }
