@@ -15,7 +15,10 @@ import {
   MatAutocompleteModule,
   MatMenuModule,
   MatCheckboxModule,
-  MatTooltipModule
+  MatTooltipModule,
+  MatDatepickerModule,
+  MatRadioModule,
+  MatNativeDateModule,
 } from '@angular/material';
 
 @NgModule({
@@ -34,7 +37,10 @@ import {
     MatAutocompleteModule,
     MatMenuModule,
     MatCheckboxModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatDatepickerModule,
+    MatRadioModule,
+    MatNativeDateModule
   ],
   providers: [ MatDialog ],
   declarations: [],
@@ -53,7 +59,10 @@ import {
     MatAutocompleteModule,
     MatMenuModule,
     MatCheckboxModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MatDatepickerModule,
+    MatRadioModule,
+    MatNativeDateModule
   ]
 })
 export class SharedModule { }
