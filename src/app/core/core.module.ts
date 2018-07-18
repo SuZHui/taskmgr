@@ -11,6 +11,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 
+import 'hammerjs';
+
 @NgModule({
   imports: [
     BrowserAnimationsModule,

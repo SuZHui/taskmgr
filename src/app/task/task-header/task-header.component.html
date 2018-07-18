@@ -18,7 +18,8 @@
 </div>
 
 <mat-menu #menu="matMenu" xPosition="before">
-  <button mat-menu-item>
+  <button mat-menu-item
+    (click)="onEditListClick()">
     <mat-icon>mode_edit</mat-icon>
     <span>修改列表名称</span>
   </button>
@@ -27,7 +28,9 @@
     <mat-icon>motorcycle</mat-icon>
     <span>移动本列表所有内容</span>
   </button>
-  <button mat-menu-item>
+  <button 
+    mat-menu-item
+    (click)="onDelListClick()">
     <mat-icon>delete_forever</mat-icon>
     <span>删除列表</span>
   </button>

@@ -47,6 +47,9 @@ import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.componen
   ],
   providers: [ MatDialog ],
   declarations: [ConfirmDialogComponent],
+  entryComponents: [
+    ConfirmDialogComponent
+  ],
   exports: [
     CommonModule,
     MatToolbarModule,
