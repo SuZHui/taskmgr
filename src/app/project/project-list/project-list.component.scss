@@ -5,10 +5,18 @@
     padding-bottom: 40px;
 }
 
-:host {
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    height: 100%;
+}
+
+// 白模式
+:host {
+    background: #fff;
+}
+// 黑模式
+.myapp-dark-theme :host {
+    background: #424242;
 }
