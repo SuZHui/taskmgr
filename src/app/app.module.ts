@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { MatSidenavModule, MatDialog } from '@angular/material';
+// import { MatSidenavModule } from '@angular/material';
 
 // Root Component
 import { AppComponent } from './app.component';
@@ -11,6 +11,7 @@ import { CoreModule } from './core/core.module';
 import { LoginModule } from './login/login.module';
 import { ProjectModule } from './project/project.module';
 import { TaskModule } from './task/task.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,12 +19,12 @@ import { TaskModule } from './task/task.module';
   ],
   imports: [
     BrowserModule,
-    MatSidenavModule,
     CoreModule,
     LoginModule,
     ProjectModule,
     TaskModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [  ],
   bootstrap: [ AppComponent ]

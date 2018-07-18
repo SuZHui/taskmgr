@@ -20,6 +20,7 @@ import {
   MatRadioModule,
   MatNativeDateModule,
   MatSelectModule,
+  MatSidenavModule,
 } from '@angular/material';
 import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.component';
 
@@ -44,6 +45,7 @@ import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.componen
     MatRadioModule,
     MatNativeDateModule,
     MatSelectModule,
+    MatSidenavModule
   ],
   providers: [ MatDialog ],
   declarations: [ConfirmDialogComponent],
@@ -70,6 +72,7 @@ import { ConfirmDialogComponent } from './confirm-dialog/confirm-dialog.componen
     MatRadioModule,
     MatNativeDateModule,
     MatSelectModule,
+    MatSidenavModule
   ]
 })
 export class SharedModule { }
