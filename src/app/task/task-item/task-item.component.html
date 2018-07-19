@@ -1,4 +1,8 @@
 <mat-list-item 
+  [app-draggable]='true'
+  draggedClass="drag-start"
+  dragTag="task-item"
+  [dragData]="item"
   [@item]="widerPriority"
   class="container"
   [ngClass]="{
