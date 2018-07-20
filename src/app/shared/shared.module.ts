@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { 
   MatToolbarModule,
   MatIconModule, 
@@ -49,6 +50,8 @@ import { DirectiveModule } from '../directive/directive.module';
     MatSelectModule,
     MatSidenavModule,
     DirectiveModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [ MatDialog ],
   declarations: [ConfirmDialogComponent],
@@ -77,6 +80,8 @@ import { DirectiveModule } from '../directive/directive.module';
     MatSelectModule,
     MatSidenavModule,
     DirectiveModule,
+    FormsModule,
+    ReactiveFormsModule
   ]
 })
 export class SharedModule { }

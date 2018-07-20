@@ -77,4 +77,8 @@ export class TaskHomeComponent implements OnInit {
     }
   }
 
+  handleQuickTask() {
+    
+  }
+
 }

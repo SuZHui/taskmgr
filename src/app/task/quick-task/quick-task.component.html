@@ -1,0 +1,20 @@
+<form #form="ngForm">
+  <mat-form-field class="full-width">
+    <input 
+      [(ngModel)]="desc"
+      name="desc"
+      matInput 
+      type="text"
+      placeholder="快速建立一个任务">
+    <button matSuffix mat-icon-button type="button" (click)="sendQuickTack()">
+      <mat-icon>send</mat-icon>
+    </button>
+  </mat-form-field>
+</form>
+
+<!-- <div>
+  表单数据： {{ form.value | json }}
+</div>
+<div>
+  表单验证状态: {{ form.valid | json }}
+</div> -->
